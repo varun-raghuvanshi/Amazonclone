@@ -1,0 +1,343 @@
+*{
+
+
+    margin: 0px;
+border: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+
+height: 60px;
+background-color: #0f1111;
+color: rgb(255, 255, 255);
+display:flex;
+align-items: center;
+justify-content:space-evenly;
+
+
+}
+.navlogo{
+
+height: 50px;
+width: 100px;
+}
+.logo{   
+background-image:url(amazon_logo.png);
+background-size: cover;
+height: 50px;
+ width: 100px;
+}
+.border{
+border: 2px solid transparent;
+
+}
+.border:hover{
+
+    border: 1.5px solid white;
+
+
+    /* box2 */
+}
+.address{
+font-size: 12px;
+height: 50px;
+width: 50px;
+
+}
+.deliver{
+color: #cccccc;
+font-size: 10px;
+margin-left: 15px;
+
+}
+.india{
+color: white;
+font-size: 12px;
+margin-left: 5px;
+font-weight: bolder;
+}
+.add-icon{
+
+display: flex;
+align-items: center;
+}
+/* box3 */
+.nav-search{
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+   width:620px ;
+   height: 40px;
+   border-radius: 10px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   justify-content: space-evenly;
+
+}
+
+.search-icon{
+    background-color: #febd68;
+    text-align: center;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+   font-size: 1.8rem;
+ }
+ .search{
+    width: 620px;
+ }
+
+
+
+/* box4 */
+.nav-signin{
+
+    margin-top: 4px;
+     margin-left:25px ;
+     display:inline-block
+}
+.hello{
+    font-size: 0.7rem;
+
+}
+.account{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-returns{
+
+    margin-top: 4px;
+    margin-left:10px ;
+   
+}
+.returns{
+    font-size: 0.7rem;
+
+}
+.orders{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.cart{
+    font-size: 0.85rem;
+font-weight: 700;
+margin-left: 20px;
+}
+.navbar-2{
+
+    height: 50px;
+    background-color: rgb(6, 21, 47);
+    color: white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    
+    
+}
+.options p{
+    display: inline;
+    padding: 10px;
+  
+}
+.deals{
+    margin-left: 650px;
+}
+.hero-section{
+    height: 350px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-end;
+}
+.temp{
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.border1{
+    border: 2px solid transparent;
+    
+    }
+    .border1:hover{
+    
+        border: 2px solid black;}
+        a{
+
+      text-decoration: none;
+    color: black;  }
+
+
+    .shop{
+        display: flex;
+       flex-wrap: wrap;
+       background-color:azure;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        padding: 20px 0px 15px;
+        margin-top: 10px;
+
+    }
+    .box{  height: 300px;
+        width: 23%;
+background-color: #ffffff;
+margin-top: 20px;
+padding: 20px 0px 15px;
+    }
+
+.content{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+   
+}
+.img1{
+
+    background-image: url(box1_image.jpg);
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+        }
+                .img2{
+
+                    background-image: url(box2_image.jpg);
+                    height: 230px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                    
+                        }
+                        .img3{
+
+                            background-image: url(box3_image.jpg);
+                            height: 230px;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                                }   .img4{
+
+                                    background-image: url(box4_image.jpg);
+                                    height: 230px;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    margin-top: 1rem;
+                                    margin-bottom: 1rem;
+                                        }
+                                        .img5{
+
+                                            background-image: url(box5_image.jpg);
+                                            height: 230px;
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            margin-top: 1rem;
+                                            margin-bottom: 1rem;
+                                                }
+                                                .img6{
+
+                                                    background-image: url(box6_image.jpg);
+                                                    height: 230px;
+                                                    background-size: cover;
+                                                    background-repeat: no-repeat;
+                                                    margin-top: 1rem;
+                                                    margin-bottom: 1rem;
+                                                        }
+                                                        .img7{
+
+                                                            background-image: url(box7_image.jpg);
+                                                            height: 230px;
+                                                            background-size: cover;
+                                                            background-repeat: no-repeat;
+                                                            margin-top: 1rem;
+                                                            margin-bottom: 1rem;
+                                                                }
+                                                                .img8{
+
+                                                                    background-image: url(box8_image.jpg);
+                                                                    height: 210px;
+                                                                    background-size: cover;
+                                                                    background-repeat: no-repeat;
+                                                                    margin-top: 1rem;
+                                                                    margin-bottom: 1rem;
+                                                                        }
+.backtop{
+height: 60px;
+background-color: rgb(6, 21, 47);
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.panel2{
+height: 300px;
+background-color: #232f3e;
+display: flex;
+justify-content: space-evenly;
+
+
+
+}
+.content1{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: #dddddd;
+   justify-content: space-evenly;
+}
+
+.panel3{
+
+
+    height: 100px;
+    background-color:#222f3d ;
+  color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: centre;
+    height: 70px;
+}
+.logo1{
+    background-image:url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+     width: 100px;
+    margin-left: 670px;
+
+}
+.panel4{
+
+background-color:rgb(6, 21, 47);
+height: 100px;
+color: white;
+font-size: small;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+      
+        
+    
